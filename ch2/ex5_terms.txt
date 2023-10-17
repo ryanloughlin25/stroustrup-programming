@@ -1,0 +1,22 @@
+terms
+
+// - beginning of a one-line comment in a C++ source file
+<< - C++ output operator which sends text to an output stream (or bitwise shift left operator)
+C++ - name of a programming language
+comment - part of a source file intended for human readers and discarded by compilers
+compiler - executable that translates source code into object code
+compile-time error - the result of attempting to compile source code that does not match the language specification, which includes an attempt to explain the issue
+cout - keyword in C++ for character output stream which sends text to humans or other software systems
+executable - a binary that a particular system can run to perform actions and produce outputs
+function - a sequence of instructions in source code that can references from and used by other source code
+header - a source file containing definitions but (typically) not implementations of those definitions
+IDE - an integrated development environment is a set of software tools for a single person to manage sources files and software projects on a single device
+#include - a C++ statement to use other source code in this source code
+library - source files typically intended to be included in other source files to solve a specific problem
+linker - an executable that combines multiple object codes, as described in source code, to create an executable
+main() - the interface between C++ itself and an individual C++ program by being the first function called when running an executable
+object code - a translation of source files to machine instructions for a particular hardware architecture
+output - data produced by running an executable that is returned to a human or another software system
+program - a set of instructions written in a programming language that can be compiled and executed, typically to perform a task or solve a problem
+source code - instructions in a high level language that can be written and read by humans and translated into object code for a variety of hardware architectures
+statement - any part of source code that describes an intended action of an executable rather than representing the syntax/structure of the language specification

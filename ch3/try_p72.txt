@@ -1,0 +1,37 @@
+Execute the below program on a "piece of paper" using the input "The cat cat jumped"
+
+#include "../std_lib_facilities.h"
+
+int main()
+{
+	string previous = " ";
+	string current;
+	while (cin>>current) {
+		if (previous == current) {
+			cout << "repeated word: " << current << '\n';
+		}
+		previous = current;
+	}
+	return 0;
+}
+
+define the string previous and initialize its value to " "
+define the string current
+loop until cin has been read, which is 4 iterations because the input contains 4 words
+	read "The" from cin and assign it to current
+	compare previous to current for equality, " " is not equal to "The"
+	assign "The" to previous
+
+	read "cat" from cin and assign it to current
+	compare previous to current for equality, "The" is not equal to "cat"
+	assign "cat" to previous
+
+	read "cat" from cin and assign it to current
+	compare previous to current for equality, "cat" is equal to "cat"
+	write "repeated word: cat\n" to cout
+	assign "cat" to previous
+
+	read "jumped" from cin and assign it to current
+	compare previous to current for equality, "cat" is not equal to "jumped"
+	assign "jumped" to previous
+return
